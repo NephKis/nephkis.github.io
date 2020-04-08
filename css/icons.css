@@ -1,0 +1,55 @@
+/* Font Icons */
+.icon {
+    display: inline-block;
+    font-family: 'ios7-icon';
+    -webkit-text-rendering: geometricPrecision;
+    -moz-text-rendering: geometricPrecision;
+    -ms-text-rendering: geometricPrecision;
+    -o-text-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-style: normal;
+    text-shadow: none;
+}
+
+[class*="sa-"] {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Left Menu */
+[class*="sa-side-"] {
+    width: 44px;
+    height: 44px;
+}
+
+.sa-side-home { background-image: url(../img/icon/home.png); }
+.sa-side-archives { background-image: url(../img/icon/archives.png); }
+.sa-side-categories { background-image: url(../img/icon/categories.png); }
+.sa-side-tags { background-image: url(../img/icon/tags.png); }
+
+/* Others */
+#menu-toggle { background-image: url(../img/icon/menu.png); }
+
+
+/* For Higher DPI */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (   min--moz-device-pixel-ratio: 1.25),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 1.25),
+only screen and (                min-resolution: 120dpi),
+only screen and (                min-resolution: 1.25dppx) {
+
+    /* Left Menu */
+    .sa-side-Home, .sa-side-Archives, .sa-side-Categories, .sa-side-Tags { background-size: 23px 21px; }
+
+    .sa-side-Home { background-image: url(../img/icon/home@2x.png); background-size: 25px 25px; }
+    .sa-side-Archives { background-image: url(../img/icon/archives@2x.png); }
+    .sa-side-Categories { background-image: url(../img/icon/categories@2x.png); }
+    .sa-side-Tags { background-image: url(../img/icon/tags@2x.png); }
+}
