@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>deepin网卡</title>
-    <url>/2019/03/11/deepin-network-driver/</url>
-    <content><![CDATA[<p>安装deepin 系统无线网卡驱动问题</p>
-<a id="more"></a>
-<p>  电脑为联想拯救者y7000 </p>
-<pre><code>sudo modprobe -r ideapad_laptop</code></pre><p>  使用后可正常启动无线网卡</p>
-<p>  还有一种方式：</p>
-<pre><code>sudo apt install wicd</code></pre><p>  安装wicd网卡管理进行操作</p>
-<p>  网卡信息：</p>
-<pre><code>lspci | grep -i &apos;eth&apos;</code></pre><p>  当前网卡地址： </p>
-<pre><code>无线连接：ifconfig wlp7s0
-网线连接: ifconfig enp8s0</code></pre><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://bbs.deepin.org/forum.php?mod=viewthread&tid=174632&highlight=%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1" target="_blank" rel="noopener">安装deepin 系统无线网卡驱动问题</a></p>
-<blockquote>
-<p>本文章作者: <a href="/">NephKis·浅暮</a><br>版权声明： 本站所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>deepin</category>
-      </categories>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Ajax获取txt固定行</title>
     <url>/2020/04/06/Ajax%E8%8E%B7%E5%8F%96txt%E5%9B%BA%E5%AE%9A%E8%A1%8C/</url>
     <content><![CDATA[<p>如何通过Ajax获取文本文档某一行的内容并输出</p>
@@ -96,6 +72,30 @@
         <tag>Ajax</tag>
         <tag>html</tag>
         <tag>js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>deepin网卡</title>
+    <url>/2019/03/11/deepin-network-driver/</url>
+    <content><![CDATA[<p>安装deepin 系统无线网卡驱动问题</p>
+<a id="more"></a>
+<p>  电脑为联想拯救者y7000 </p>
+<pre><code>sudo modprobe -r ideapad_laptop</code></pre><p>  使用后可正常启动无线网卡</p>
+<p>  还有一种方式：</p>
+<pre><code>sudo apt install wicd</code></pre><p>  安装wicd网卡管理进行操作</p>
+<p>  网卡信息：</p>
+<pre><code>lspci | grep -i &apos;eth&apos;</code></pre><p>  当前网卡地址： </p>
+<pre><code>无线连接：ifconfig wlp7s0
+网线连接: ifconfig enp8s0</code></pre><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://bbs.deepin.org/forum.php?mod=viewthread&tid=174632&highlight=%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1" target="_blank" rel="noopener">安装deepin 系统无线网卡驱动问题</a></p>
+<blockquote>
+<p>本文章作者: <a href="/">NephKis·浅暮</a><br>版权声明： 本站所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>deepin</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
