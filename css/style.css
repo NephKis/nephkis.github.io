@@ -2487,19 +2487,22 @@ em.search-keyword {
     vertical-align: baseline;
     border-radius: 15px !important;
 }
-.widget>.category-list {
+.widget>.category-list,.widget>.tag-list {
     list-style: none;
     margin: 0 auto;
     padding: 0;
 }
-.category-list>.category-list-item {
+.category-list>.category-list-item,.category-list>.tag-list-item {
     display: inline-block;
 }
-
 .category-list-item>.category-list-link{
     background-color: #FFD600;
     color: #000;
     margin: 10px 2px;
+}
+.tag-list-item>.tag-list-link {
+    background-color: #007bff;
+    color: #fff;
 }
 .motto {
     margin: 5px 0 10px;
