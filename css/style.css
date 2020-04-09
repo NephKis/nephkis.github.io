@@ -2428,6 +2428,9 @@ ul.search-result-list {
     padding-left: 10px;
     font-size: 16px;
 }
+ul.search-result-list> li {
+    margin-bottom: 10px;
+}
 
 a.search-result-title {
     font-weight: bold;
