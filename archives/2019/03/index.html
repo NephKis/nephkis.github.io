@@ -6,7 +6,7 @@
     
     <link rel="icon" href="/favicon.ico">
     
-    <title>archives: 2019/3 | 浅暮微绪</title>
+    <title>归档: 2019/3 | 浅暮微绪</title>
 
     
 <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -35,24 +35,43 @@
     
 <link rel="stylesheet" href="/css/paginator.css">
 
-
   <meta name="generator" content="Hexo 4.2.0"></head>
   <body id="skin-cloth" class="scrollbar">
     <header id="header" class="media">
-  <a href="" id="menu-toggle"></a> 
+  <a href="" id="menu-toggle"></a>
   <a class="logo pull-left" href="/">浅暮微绪</a>
-  
+
   <div class="media-body">
-      <div class="media" id="top-menu">
-          <div id="now_time" class="pull-right">
-              
-          </div>
-          <div class="media-body">
-            <input type="text" class="main-search">
+    <div class="media" id="top-menu">
+      
+
+<div id="now_time" class="pull-right">
+
+</div>
+
+
+      
+      <div class="media-body">
+        
+
+<input type="text" class="main-search" id="local-search-input">
+
+<div id="search-r" class="search-hide">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="modal-title">Modal title</h4>
         </div>
+        <div class="well tile">
+            <div id="local-search-result"></div>
+        </div>
+    </div>
+</div>
+
       </div>
+    </div>
   </div>
 </header>
+
     
     <!-- <div class="clearfix"></div> -->
     
@@ -90,41 +109,26 @@
             </ul>
 
             <h4 class="m-0">NephKis</h4>
-            等风来，不如追风去！
-            
-            <div class="widget-wrap">
-                <h3 class="widget-title">categories</h3>
-                <div class="widget">
-                    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/deepin/">deepin</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/">前端</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%B5%8B%E8%AF%95/">测试</a></li></ul>
-                </div>
-            </div>
-            
-            
-            <div class="widget-wrap">
-                <h3 class="widget-title">tags</h3>
-                <div class="widget">
-                    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Ajax/" rel="tag">Ajax</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Test/" rel="tag">Test</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html/" rel="tag">html</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/" rel="tag">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a></li></ul>
-                </div>
-            </div>
+            <div class="motto">等风来，不如追风去！</div>
+            <hr class="whiter" />
             
         </div>
     </div>
-    
     <!-- Side Menu -->
     <ul class="list-unstyled side-menu" id="sidemenu">
         
             <li>
               <a class="sa-side-home" href="/">
-                  <span class="menu-item">home</span>
+                  <span class="menu-item">首页</span>
                 </a>
             </li>
-          
+        
             <li>
               <a class="sa-side-archives" href="/archives">
-                  <span class="menu-item">archives</span>
+                  <span class="menu-item">归档</span>
                 </a>
             </li>
-          
+        
     </ul>
 </aside>
 
@@ -142,7 +146,7 @@
 		<div class="cd-timeline-content">
 			<h2>deepin网卡</h2>
 			<p><p>安装deepin 系统无线网卡驱动问题</p></p>
-      <a class="btn btn-alt cd-read-more" href="/2019/03/11/deepin-network-driver/#more">Read More</a>
+      <a class="btn btn-alt cd-read-more" href="/2019/03/11/deepin-network-driver/#more">阅读全文</a>
 			<span class="cd-date">2019-03-11</span>
     </div>
     
@@ -186,6 +190,19 @@
     
 <script src="/js/functions.js"></script>
 
+    
+<script src="/js/search.js"></script>
+   
+    
+        <script type="text/javascript">      
+            var search_path = "search.xml";
+            if (search_path.length == 0) {
+                search_path = "search.xml";
+            }
+            var path = "/" + search_path;
+            searchFunc(path, 'local-search-input', 'local-search-result');
+        </script>
+    
 
     <script>if (window.module) module = window.module;</script>
 
